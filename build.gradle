@@ -6,12 +6,13 @@ plugins {
 
 group = 'com.polarbookshop'
 version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
 
-java {
+/*java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(21)	// Spring Boot 2.7.x는 공식적으로 Java 17 권장
+		languageVersion = JavaLanguageVersion.of(17)	// Spring Boot 2.7.x는 공식적으로 Java 17 권장
 	}
-}
+}*/
 
 repositories {
 	mavenCentral()
